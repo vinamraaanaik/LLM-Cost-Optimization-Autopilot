@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "arithmetic_42",
+    "task_type": "simple",
+    "prompt": "What is 6 multiplied by 7? Return only the number.",
+    "checks": [{"type": "contains_all", "values": ["42"]}]
+  },
+  {
+    "case_id": "sentiment_positive",
+    "task_type": "simple",
+    "prompt": "Classify this message as positive, neutral, or negative. Return only the label: 'I love this; it arrived early.'",
+    "checks": [{"type": "exact_match", "value": "positive"}]
+  },
+  {
+    "case_id": "extract_contact_json",
+    "task_type": "moderate",
+    "prompt": "Return only JSON with keys name and city for this text: 'Asha Rao lives in Pune.'",
+    "checks": [{"type": "json_values", "values": {"name": "Asha Rao", "city": "Pune"}}]
+  },
+  {
+    "case_id": "summary_grounding",
+    "task_type": "moderate",
+    "prompt": "Summarize in one sentence: The library extended its hours on Tuesday evenings after a survey showed residents could not visit during work hours. Evening visits increased after the change.",
+    "checks": [{"type": "contains_all", "values": ["library", "evening"]}]
+  },
+  {
+    "case_id": "code_function",
+    "task_type": "complex",
+    "prompt": "Write a Python function named is_even that returns True for even integers and False for odd integers. Return code only.",
+    "checks": [{"type": "contains_all", "values": ["def is_even", "% 2", "return"]}]
+  }
+]

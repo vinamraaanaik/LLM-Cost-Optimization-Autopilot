@@ -1,0 +1,77 @@
+{
+  "dataset_size": 268,
+  "train_size": 214,
+  "test_size": 54,
+  "accuracy": 0.8889,
+  "label_order": [
+    "simple",
+    "moderate",
+    "complex"
+  ],
+  "confusion_matrix": [
+    [
+      17,
+      2,
+      1
+    ],
+    [
+      1,
+      14,
+      2
+    ],
+    [
+      0,
+      0,
+      17
+    ]
+  ],
+  "classification_report": {
+    "simple": {
+      "precision": 0.9444444444444444,
+      "recall": 0.85,
+      "f1-score": 0.8947368421052632,
+      "support": 20.0
+    },
+    "moderate": {
+      "precision": 0.875,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.8484848484848485,
+      "support": 17.0
+    },
+    "complex": {
+      "precision": 0.85,
+      "recall": 1.0,
+      "f1-score": 0.918918918918919,
+      "support": 17.0
+    },
+    "accuracy": 0.8888888888888888,
+    "macro avg": {
+      "precision": 0.8898148148148147,
+      "recall": 0.8911764705882352,
+      "f1-score": 0.8873802031696769,
+      "support": 54.0
+    },
+    "weighted avg": {
+      "precision": 0.8928497942386832,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.887788905332765,
+      "support": 54.0
+    }
+  },
+  "label_counts": {
+    "simple": 96,
+    "moderate": 86,
+    "complex": 86
+  },
+  "source_counts": {
+    "hand_labeled": 268
+  },
+  "feature_names": [
+    "token_count",
+    "instruction_terms",
+    "instruction_count",
+    "constraint_count",
+    "context_provided",
+    "output_format_complexity"
+  ]
+}

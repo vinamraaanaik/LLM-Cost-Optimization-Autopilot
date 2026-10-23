@@ -1,0 +1,176 @@
+{
+  "domains": [
+    "regional parcel network",
+    "community clinic",
+    "online bookstore",
+    "bike-share service",
+    "municipal permit office",
+    "farmers market",
+    "cloud support team",
+    "university lab",
+    "neighborhood library",
+    "renewable energy cooperative",
+    "small travel agency",
+    "warehouse operations team",
+    "local meal-delivery service",
+    "public transit operator",
+    "independent design studio",
+    "customer research group",
+    "community arts center",
+    "subscription software company",
+    "volunteer organization",
+    "mobile repair shop"
+  ],
+  "people": [
+    "Avery Kim",
+    "Jordan Patel",
+    "Riley Morgan",
+    "Sam Rivera",
+    "Taylor Brooks",
+    "Casey Nguyen",
+    "Morgan Lee",
+    "Jamie Wilson",
+    "Quinn Shah",
+    "Alex Carter"
+  ],
+  "places": [
+    "North Hub",
+    "Riverside Branch",
+    "Central Station",
+    "Market Street",
+    "West Clinic",
+    "Harbor Depot",
+    "Cedar Avenue",
+    "East Campus",
+    "Hilltop Center",
+    "Lakeside Office"
+  ],
+  "items": [
+    "amber folder",
+    "blue toolkit",
+    "charging cable",
+    "winter coat",
+    "sample kit",
+    "meeting notes",
+    "replacement part",
+    "printed guide",
+    "event banner",
+    "sensor unit"
+  ],
+  "dates": [
+    "April 8",
+    "May 14",
+    "June 3",
+    "July 22",
+    "August 11",
+    "September 5",
+    "October 19",
+    "November 7",
+    "December 2",
+    "January 16"
+  ],
+  "amounts": [
+    38,
+    64,
+    87,
+    115,
+    142,
+    176,
+    210,
+    245,
+    318,
+    420
+  ],
+  "templates": [
+    {
+      "family": "field_note_extraction",
+      "tier": "simple",
+      "template": "ID{case:04d}. Find location: {person} will deliver the {item} to {place} on {date}."
+    },
+    {
+      "family": "sentiment_classification",
+      "tier": "simple",
+      "template": "ID{case:04d}. Label this message positive, neutral, or negative: 'The delivery was late, but support fixed the issue quickly.'"
+    },
+    {
+      "family": "polite_rewrite",
+      "tier": "simple",
+      "template": "ID{case:04d}. Rewrite politely: 'We still need the {item} today.'"
+    },
+    {
+      "family": "list_formatting",
+      "tier": "simple",
+      "template": "ID{case:04d}. Sort alphabetically: {items}."
+    },
+    {
+      "family": "context_question",
+      "tier": "simple",
+      "template": "ID{case:04d}. Where is the visit? Note: {person} will go to {place} on {date}."
+    },
+    {
+      "family": "record_reformatting",
+      "tier": "simple",
+      "template": "ID{case:04d}. What amount is recorded for the {item}? {amount} units."
+    },
+    {
+      "family": "short_summarization",
+      "tier": "moderate",
+      "template": "Case {case:04d}: Summarize this {domain} update in three concise bullets. Preserve the change, reason, and outcome: The team moved {amount} {item} deliveries to {place} after customers reported access problems. On-time arrival improved during the next review period."
+    },
+    {
+      "family": "option_comparison",
+      "tier": "moderate",
+      "template": "ID{case:04d}. Compare delivery services A and B for a bookstore: A costs {amount} and takes 3 days; B costs {amount_plus} and takes 1 day. Which is faster?"
+    },
+    {
+      "family": "multi_item_classification",
+      "tier": "moderate",
+      "template": "Case {case:04d}: Classify each {domain} issue as billing, delivery, or product, and return JSON keyed by issue number: 1) missing {item}; 2) incorrect invoice amount; 3) damaged parcel."
+    },
+    {
+      "family": "feedback_theme_analysis",
+      "tier": "moderate",
+      "template": "Case {case:04d}: Analyze these {domain} comments and report the two most common themes with a brief explanation: 'The queue was long.' 'The {person} was helpful.' 'The wait took too long.' 'The instructions were clear.'"
+    },
+    {
+      "family": "tradeoff_explanation",
+      "tier": "moderate",
+      "template": "Case {case:04d}: Explain two benefits and one drawback of adding an evening pickup window for a {domain}. Use a compact table and state one assumption."
+    },
+    {
+      "family": "test_case_generation",
+      "tier": "moderate",
+      "template": "Case {case:04d}: Create four test cases for a {domain} form that accepts an item name, quantity, and delivery date. Include one boundary case and return a Markdown table."
+    },
+    {
+      "family": "constraint_based_schedule",
+      "tier": "complex",
+      "template": "Case {case:04d}: Plan a two-day schedule for the {domain}. Deliver the {item} to {place} by {date}, keep spending under ${amount}, sequence the dependent tasks, include a contingency, and explain the main tradeoff in numbered steps."
+    },
+    {
+      "family": "code_debugging",
+      "tier": "complex",
+      "template": "ID{case:04d}. Analyze and evaluate this Python function: `def share(total, people): return total / people`. Derive edge cases, debug zero and invalid inputs, design a fix, justify the correction, and add three tests."
+    },
+    {
+      "family": "rollout_strategy",
+      "tier": "complex",
+      "template": "Case {case:04d}: Design a phased rollout for a new workflow at the {domain}. Include dependencies, success measures, a rollback trigger, stakeholder communication, risks, and a recommendation under limited staffing."
+    },
+    {
+      "family": "weighted_decision",
+      "tier": "complex",
+      "template": "Case {case:04d}: Evaluate three vendor options for the {domain} using weighted cost, reliability, and response-time criteria. Show the scoring method, test how the result changes if reliability is weighted more heavily, state uncertainty, and recommend a choice."
+    },
+    {
+      "family": "constrained_creative_brief",
+      "tier": "complex",
+      "template": "Case {case:04d}: Create a campaign concept for the {domain} aimed at first-time users. Provide a headline, three channel-specific messages, a call to action, and a measurement plan. Keep the tone welcoming, avoid unsupported claims, and fit a modest budget."
+    },
+    {
+      "family": "incident_response_plan",
+      "tier": "complex",
+      "template": "ID{case:04d}. Analyze the outage and create an incident response plan for the {domain}. Prioritize immediate actions, assign communication owners, include a fallback when information is missing, assess customer impacts, identify rollback criteria, and recommend prevention steps."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Routing rules. The API re-reads this on every request, and PUT /v1/routing-config rewrites a
+# runtime copy (LLM_ROUTING_RULES_PATH) after validating it against the model registry.
+
+# Minimum model quality required for each classifier label.
+class_to_quality_tier:
+  simple: low
+  moderate: medium
+  complex: high
+
+# Preferred models per label; the router picks the cheapest eligible one.
+model_candidates_by_tier:
+  simple:
+  - llama3.2:1b
+  - claude-haiku-5-5
+  moderate:
+  - llama3.1:8b
+  - claude-haiku-5-5
+  - gpt-4o-mini
+  complex:
+  - claude-sonnet-5
+  - gpt-4o
+
+# Where to look when no preferred candidate is eligible (e.g. hosted models are disabled).
+fallback_tiers:
+  high:
+  - high
+  - medium
+  - low
+  medium:
+  - medium
+  - low
+  low:
+  - low
+
+# Pre-call assumptions used to rank candidates by cost.
+estimated_output_tokens:
+  simple: 96
+  moderate: 192
+  complex: 384
+input_cost_weight: 1.0
+output_cost_weight: 4.0

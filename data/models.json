@@ -1,0 +1,8 @@
+[
+  {"provider_name": "ollama", "model_id": "llama3.2:1b", "quality_tier": "low", "local": true},
+  {"provider_name": "ollama", "model_id": "llama3.1:8b", "quality_tier": "medium", "local": true},
+  {"provider_name": "openai", "model_id": "gpt-4o-mini", "quality_tier": "medium", "local": false},
+  {"provider_name": "openai", "model_id": "gpt-4o", "quality_tier": "high", "local": false},
+  {"provider_name": "anthropic", "model_id": "claude-haiku-5-5", "quality_tier": "medium", "local": false},
+  {"provider_name": "anthropic", "model_id": "claude-sonnet-5", "quality_tier": "high", "local": false}
+]

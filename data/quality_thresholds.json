@@ -1,0 +1,30 @@
+{
+  "extraction": {
+    "minimum_agreement": 0.95,
+    "description": "All reference fields and values should be preserved."
+  },
+  "classification": {
+    "minimum_agreement": 1.0,
+    "description": "The normalized class label should match exactly."
+  },
+  "summarization": {
+    "minimum_agreement": 0.45,
+    "description": "The summaries should retain the same key terms and meaning."
+  },
+  "structured_analysis": {
+    "minimum_agreement": 0.55,
+    "description": "The analysis should cover substantially the same points."
+  },
+  "creative_generation": {
+    "minimum_agreement": 0.30,
+    "description": "Creative answers may differ while remaining acceptable."
+  },
+  "question_answering": {
+    "minimum_agreement": 0.65,
+    "description": "Answers should agree on their key content."
+  },
+  "general": {
+    "minimum_agreement": 0.60,
+    "description": "Responses should share a majority of their key content."
+  }
+}

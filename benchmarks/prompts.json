@@ -1,0 +1,42 @@
+[
+  {
+    "id": "summarization",
+    "prompt": "Summarize this in one sentence: A small community library extended its hours on two evenings each week after a survey found that many residents could not visit during standard work hours. After three months, evening visits increased, while total weekly visits stayed about the same."
+  },
+  {
+    "id": "structured_extraction",
+    "prompt": "Extract the name, appointment date, time, and location from this note. Return only valid JSON with those four keys: 'Maya Chen is booked with Dr. Ortiz at North Clinic for 3:30 PM on November 12, 2026.'"
+  },
+  {
+    "id": "arithmetic_reasoning",
+    "prompt": "A team has a $240 monthly API budget. It spent $78 in week one and $64 in week two. If spending in each of the remaining two weeks is 15% higher than week two, what will the month-end total be, and how much budget remains? Show the arithmetic."
+  },
+  {
+    "id": "comparison",
+    "prompt": "Compare these options for a small team running 50,000 short text requests monthly: Model A costs $0.20 per million input tokens and $0.80 per million output tokens with 400 ms average latency; Model B costs $1.00 and $4.00 respectively with 250 ms latency. Explain the cost-latency tradeoff and give one condition under which B could be preferable."
+  },
+  {
+    "id": "code_generation",
+    "prompt": "Write a Python function that takes a list of integers and returns the second-largest distinct value. Raise ValueError if fewer than two distinct values exist. Include a short example call."
+  },
+  {
+    "id": "debugging",
+    "prompt": "Find the bug and give a corrected Python version: def average(values):\n    total = 0\n    for value in values:\n        total += value\n    return total / len(values)\nThe function should return 0 for an empty list."
+  },
+  {
+    "id": "classification",
+    "prompt": "Classify the customer message as positive, neutral, or negative, and give one short reason: 'The delivery arrived two days late. Support was polite and refunded the shipping fee, but I needed the item for the event.'"
+  },
+  {
+    "id": "rewriting",
+    "prompt": "Rewrite this as a polite, concise email sentence without changing its meaning: 'You still haven't sent the numbers, and I can't finish the report until you do.'"
+  },
+  {
+    "id": "explanation",
+    "prompt": "Explain the difference between input tokens and output tokens in an LLM API bill to a software engineering intern. Use a short concrete example."
+  },
+  {
+    "id": "planning",
+    "prompt": "Give a five-step plan for comparing two text-generation models on the same support-ticket dataset. Include at least one quality measure, one cost measure, and one latency measure."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "last_verified": "2026-10-20",
+  "models": {
+    "llama3.2:1b": {"input": 0.0, "output": 0.0},
+    "llama3.1:8b": {"input": 0.0, "output": 0.0},
+    "gpt-4o-mini": {"input": 0.15, "output": 0.60},
+    "gpt-4o": {"input": 2.50, "output": 10.00},
+    "claude-haiku-5-5": {"input": 0.10, "output": 0.50},
+    "claude-sonnet-5": {"input": 2.00, "output": 10.00}
+  },
+  "notes": [
+    "Hosted model prices are standard uncached text-token prices for short-context requests.",
+    "Claude Haiku 5.5 uses the up-to-100K prompt rate; requests above 100K tokens cost more.",
+    "Ollama values are API charges only and exclude local hardware and electricity."
+  ],
+  "sources": {
+    "gpt-4o": "https://developers.openai.com/api/docs/models/gpt-4o",
+    "gpt-4o-mini": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+    "openai_deprecations": "https://developers.openai.com/api/docs/deprecations",
+    "claude-sonnet-5": "https://www.anthropic.com/news/claude-sonnet-5",
+    "claude-haiku-5-5": "https://www.anthropic.com/claude-haiku-5-5",
+    "llama3.1:8b": "https://ollama.com/library/llama3.1",
+    "llama3.2:1b": "https://ollama.com/library/llama3.2"
+  }
+}

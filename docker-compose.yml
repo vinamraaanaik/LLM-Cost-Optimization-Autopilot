@@ -1,0 +1,85 @@
+# One image, three roles: the API, the verification worker, and the dashboard.
+x-service-env: &service-env
+  OLLAMA_HOST: http://ollama:11434
+  LLM_AUTOPILOT_DB: /data/autopilot.sqlite3
+
+x-provider-env: &provider-env
+  LLM_ALLOW_PAID_PROVIDERS: ${LLM_ALLOW_PAID_PROVIDERS:-false}
+  OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+  ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      <<: [*service-env, *provider-env]
+      LLM_ROUTING_RULES_PATH: /data/routing.yaml
+      LLM_VERIFICATION_MODE: ${LLM_VERIFICATION_MODE:-queue}
+    volumes:
+      - autopilot_data:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  worker:
+    build: .
+    command: ["python", "-m", "app.worker"]
+    environment:
+      <<: [*service-env, *provider-env]
+      LLM_VERIFICATION_WORKER_ENABLED: ${LLM_VERIFICATION_WORKER_ENABLED:-true}
+      LLM_VERIFICATION_WORKER_POLL_SECONDS: ${LLM_VERIFICATION_WORKER_POLL_SECONDS:-0.5}
+      LLM_VERIFICATION_JOB_LEASE_SECONDS: ${LLM_VERIFICATION_JOB_LEASE_SECONDS:-600}
+    volumes:
+      - autopilot_data:/data
+    depends_on:
+      api:
+        condition: service_healthy
+
+  dashboard:
+    build: .
+    command:
+      - streamlit
+      - run
+      - dashboard/dashboard.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+      - --browser.gatherUsageStats=false
+    environment:
+      AUTOPILOT_API_URL: http://api:8000
+      LLM_AUTOPILOT_DB: /data/autopilot.sqlite3
+    volumes:
+      - autopilot_data:/data
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  ollama_data:
+  autopilot_data:

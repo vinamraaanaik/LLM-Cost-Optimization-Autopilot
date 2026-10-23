@@ -1,0 +1,269 @@
+label	prompt
+simple	Rewrite this sentence in a polite tone: Send me the report today.
+simple	Correct the spelling in this sentence: I recieved your package yesterday.
+simple	Convert this sentence to title case: the quick brown fox.
+simple	Make this sentence lowercase: PLEASE CLOSE THE WINDOW.
+simple	Translate the word "thank you" into Spanish.
+simple	Change this sentence from first person to third person: I like the new desk.
+simple	Remove the extra spaces from this line: The   meeting   starts   soon.
+simple	Add a period to the end of this sentence: The train is arriving
+simple	Sort these names alphabetically: Maya, Arjun, Leena.
+simple	Put these numbers in ascending order: 19, 3, 11, 7.
+simple	Convert 2.5 kilometers to meters.
+simple	Convert 45 minutes to seconds.
+simple	What is 18 plus 24? Return only the number.
+simple	What is 9 multiplied by 8? Give the answer only.
+simple	What is the capital city named in this note: "Ravi moved to Jaipur last year"?
+simple	Extract the email address from this message: Please contact nora@example.com about the receipt.
+simple	Extract the appointment date from this note: The visit is booked for 14 June 2026.
+simple	What time does the shop close according to this text: The shop opens at nine and closes at five.
+simple	Return the first name from this contact: Asha Rao, 555-0182.
+simple	Which color is mentioned in this sentence: The blue folder is on the table.
+simple	Extract the order number from this message: Your order ID is ORD-8142.
+simple	Return the phone number in this text: Call Priya at +1 555 0199.
+simple	What is the file extension of report.final.pdf?
+simple	Return only yes or no: Does this sentence contain the word "urgent"? Message: "Please call me urgently."
+simple	Is the statement true according to the note? The library opens at 10 a.m. on Sundays. Question: Does it open at 10 a.m.?
+simple	Copy the following sentence exactly: The blue door is open.
+simple	Change the word "small" to "tiny" in this sentence: We saw a small bird.
+simple	Make this sentence plural: The child is ready.
+simple	Convert this date to ISO format: July 4, 2025.
+simple	Format this phone number with hyphens: 5550198.
+simple	Remove the word "very" from this sentence: The soup is very hot.
+simple	Replace each comma with a semicolon: apples, pears, plums.
+simple	Expand the contraction in this sentence: We won't be late.
+simple	Turn this fragment into a complete sentence: after the long journey
+simple	Extract the city from this address: 24 Lake Road, Kochi, Kerala.
+simple	Extract the price from this product line: Notebook - $4.50 - blue cover.
+simple	Return the temperature from this reading: Current temperature: 21 degrees Celsius.
+simple	List the two ingredients named here: The salad contains tomato and cucumber.
+simple	Which weekday is mentioned in this note: The delivery arrives on Wednesday.
+simple	Count the words in this sentence: Birds fly over the green field.
+simple	Change this sentence to past tense: They walk to school.
+simple	Change this sentence to present tense: She opened the window.
+simple	Remove the greeting from this message: Hello Sam, the meeting starts at noon.
+simple	Add a question mark to this sentence: Are you joining us
+simple	Convert this amount to cents: $3.25.
+simple	Convert 750 milliliters to liters.
+simple	Extract the URL from this note: Visit https://example.org/help for details.
+simple	Return the username from this email address: sam.lee@example.org.
+simple	Remove duplicate names from this list: Ana, Bo, Ana, Dev, Bo.
+simple	Reverse the order of these three words: red green gold.
+simple	Separate these initials with periods: ABC.
+simple	Convert this list into one comma-separated line: milk; bread; apples.
+simple	Return the file name without its extension: budget.xlsx.
+simple	Make this sentence more concise without changing its meaning: At this point in time, we are ready.
+simple	Change the sentence to passive voice: The chef prepared the meal.
+simple	Change the sentence to active voice: The window was opened by Mira.
+simple	Extract the meeting location from this invitation: Join us in Room 204 at 2 p.m.
+simple	What is the bus route number in this message: Take route 12 to Central Station.
+simple	Return only the label that describes the tone: "That was wonderful, thank you!" Choose positive, neutral, or negative.
+simple	Convert the following text to a bullet list: Bread, tea, rice.
+simple	Convert these bullets into a single sentence: - Bring a pen. - Bring a notebook.
+simple	Return the initials for Jordan Lee.
+simple	Sort these words alphabetically: peach, apple, plum.
+simple	Remove the markdown bold markers from this text: **Ready** to go.
+simple	Copy the ticket ID from this note: Ticket INC-2048 was updated.
+simple	Extract the country from this sentence: The package was sent from Canada.
+simple	Answer using the provided context only: Asha's badge number is 73. What is Asha's badge number?
+simple	What quantity is listed here: Pack size: 6 bottles.
+simple	Return the letter that appears twice in the word "letter".
+simple	Replace "colour" with "color" in this sentence: The colour is bright.
+simple	Convert the time to 24-hour format: 7:30 PM.
+simple	Return only the month named in this sentence: We travel in October.
+simple	Extract the start time from this reminder: The call begins at 3:15 p.m.
+simple	What is the color of the car in this sentence: The red car is parked outside.
+simple	Convert 5 pounds to ounces.
+simple	Convert this amount from dollars to cents: $12.40.
+simple	Remove the repeated word from this sentence: We will will arrive soon.
+simple	Change these words to uppercase: north avenue.
+simple	Return the state abbreviation from this address: 10 Main Street, Austin, TX 78701.
+simple	What is the room number in this note: The interview is in Room 12.
+simple	Extract the website domain from this URL: https://shop.example.com/cart.
+simple	Convert this sentence into a question: You are ready.
+simple	Which animal is named in this text: \"A fox crossed the path.\"
+simple	Return the number of items listed: pens, clips, folders, tape.
+simple	Sort these three dates from earliest to latest: 2025-04-12, 2024-11-02, 2025-01-01.
+simple	Change the separator from slash to dash: 06/18/2026.
+simple	Extract the tracking code from this message: Tracking code ZX-991-AB is active.
+simple	Answer from the provided sentence only: The room has four chairs. How many chairs are there?
+simple	Remove the quotation marks from this phrase: \"Ready now\".
+simple	Convert 3 hours to minutes.
+simple	Replace the abbreviation \"St.\" with \"Street\" in this address: 8 Oak St.
+simple	Return the second word in this sentence: Bright stars shine.
+simple	Identify the punctuation mark at the end: Are we there yet?
+simple	Convert this value to a decimal: 75%.
+simple	Extract the department from this line: Team: Customer Success; Lead: Imani.
+simple	Make the following text a single line: First line. Second line.
+moderate	Summarize this project update in three bullets and preserve the dates and blockers: The design review moved to May 4, testing starts May 8, and the vendor has not delivered the test devices.
+moderate	Summarize the following customer feedback in one sentence: The app loads quickly, but the checkout page is confusing and the receipt email arrived late.
+moderate	Classify each review as positive, neutral, or negative and return a two-column table: "Fast shipping." "The item is fine." "It arrived broken."
+moderate	Group these support tickets by topic and give a count for each group: password reset, billing error, login problem, refund request, password reset.
+moderate	Extract the name, date, and location from this note and return them as JSON: "Nina Patel has an appointment in Delhi on 12 August."
+moderate	Compare these two mobile plans by price, data allowance, and best fit for a light user: Plan A is $12 for 5 GB; Plan B is $20 for 20 GB.
+moderate	Turn these meeting notes into action items with owners and deadlines: Omar will send the draft Friday; Lin will review it Monday; the budget question is unresolved.
+moderate	Explain the difference between input and output token billing using a short numerical example.
+moderate	Rewrite this paragraph for a nontechnical audience while preserving every factual claim: The service uses asynchronous requests to reduce worker idle time.
+moderate	Classify these tasks by urgency and provide a short reason for each: restore a failed checkout service, update a team photo, renew an expiring certificate.
+moderate	Summarize the article excerpt in two sentences, separating the finding from its limitation: A small survey found more evening library visits after hours were extended; the survey had only 40 respondents.
+moderate	Compare the two candidates using the stated criteria and recommend one in a compact table: A has more experience; B has lower cost and can start sooner.
+moderate	Create a five-step launch checklist from these notes and mark dependencies: approve copy, finish translations, test signup, publish page, monitor errors.
+moderate	Classify each comment as a feature request, bug report, or question: "Add dark mode." "The save button crashes." "Can I export a file?"
+moderate	Extract invoice number, due date, and total from this invoice text into JSON: Invoice INV-803, due 2 September, total $418.
+moderate	Summarize the following transcript by speaker and list each speaker's main point: Alex supports the change because setup is faster; Kim is concerned about training time.
+moderate	Compare the monthly costs and annual totals for these options: A costs $8 per month; B costs $75 per year.
+moderate	Convert the following notes into a concise email with a subject line: The maintenance window is Tuesday at 8 p.m.; expect a 20-minute outage.
+moderate	Analyze this small survey table and report the highest-rated option and the size of its lead: Cedar 31 votes, Birch 24, Maple 18.
+moderate	Summarize the policy excerpt in four bullets and retain all exceptions: Employees may work remotely up to two days weekly, except during onboarding or scheduled maintenance.
+moderate	Classify each product by category and return CSV with product and category columns: oat milk, desk lamp, running shoes, lentils.
+moderate	Turn this paragraph into a timeline with dates and events: The contract was signed March 3, work began March 10, and delivery is planned for April 2.
+moderate	Compare the risks and benefits of the two supplied options in a balanced table: Option A is faster but harder to maintain; Option B is slower but uses familiar tools.
+moderate	Extract the tasks, owners, and status from these notes and return a Markdown table: Imani owns the draft and is in progress; Raj owns testing and has not started.
+moderate	Summarize the following incident report, including impact, cause, and resolution: A database connection limit was reached for 14 minutes; a worker leak caused it; restarting workers restored service.
+moderate	Classify these short messages by intent and provide one label per line: "Where is my order?" "Please cancel my account." "The page will not load."
+moderate	Compare the listed apartments on rent, commute, and included utilities, then recommend the best match for a short commute: A is $1,400, 40 minutes, utilities included; B is $1,550, 15 minutes, utilities excluded.
+moderate	Summarize the research abstract in plain language and identify its main outcome measure: The trial measured weekly symptom scores over eight weeks.
+moderate	Organize these expenses into travel, food, and supplies categories and calculate each category total: taxi $18, lunch $14, paper $9, dinner $22.
+moderate	Review this short function, identify the likely bug, and provide a corrected version: `def first(items): return items[1]`.
+moderate	Turn this release note into a customer-facing announcement with a headline and three concise bullets: Search now supports filters; exports are faster; a rare date bug was fixed.
+moderate	Compare the stated service levels and monthly prices, then format the result as a table: Basic $10 with 99% uptime; Plus $25 with 99.9% uptime.
+moderate	Extract the key claim, supporting evidence, and caveat from this paragraph: The pilot reduced average wait time by 12%, based on two stores over one month.
+moderate	Classify these expenses as fixed or variable and explain each label briefly: monthly rent, electricity bill, one-time desk purchase.
+moderate	Summarize the following email thread in a paragraph and list the open question: The team agreed to launch Friday; no one has confirmed who will monitor support.
+moderate	Create a comparison matrix for the three laptops using price, weight, and battery life: A is $900, 1.4 kg, 9 hours; B is $800, 1.8 kg, 11 hours; C is $1,100, 1.3 kg, 13 hours.
+moderate	Convert these notes into a numbered process and preserve the order: collect the form, verify the address, issue the receipt.
+moderate	Classify the following comments as actionable or non-actionable feedback and give a brief reason: "Add a search box." "I like the color." "The export drops rows."
+moderate	Summarize this product description in two sentences, keeping the target audience and main benefit: A compact charger for travelers that powers two devices and fits in a small bag.
+moderate	Analyze the supplied weekly figures and state the trend and largest change: visits were 120, 135, 131, and 170 from Monday to Thursday.
+moderate	Extract the dates, people, and decisions from these meeting notes into JSON: On June 2, Mei assigned testing to Luis; on June 4, the team approved the draft.
+moderate	Compare the three shipping options by cost and delivery time and recommend one for a non-urgent parcel: Economy $5 in 7 days, Standard $9 in 3 days, Express $18 tomorrow.
+moderate	Turn this FAQ text into three question-and-answer pairs: Passwords can be reset by email; invoices are under Billing; support replies within one day.
+moderate	Classify each sentence as fact, opinion, or recommendation: "The unit weighs 2 kg." "This is the best design." "Try the smaller size."
+moderate	Summarize the customer interview in a table with pain point and requested improvement: Users struggle to find saved items and want folders.
+moderate	Rewrite the following announcement for a professional tone and keep its deadline: Send your forms by Friday or your access might stop.
+moderate	Analyze this simple budget and report the amount remaining after listed expenses: Income $2,400; rent $900; food $420; transport $120.
+moderate	Compare the two deployment options using setup effort, rollback, and maintenance from the supplied notes: Blue-green needs extra capacity but has fast rollback; rolling deploy is cheaper but slower to reverse.
+moderate	Extract each book title and author from this list and return JSON: "Dune — Frank Herbert; Kindred — Octavia Butler."
+moderate	Summarize the following change log into user-visible benefits and technical fixes: Added saved filters; fixed a timeout in exports; updated the help link.
+moderate	Classify each message by sentiment and include a confidence word: "Loved the quick help." "It works." "Still broken."
+moderate	Make a table from these event details with event, date, and venue: Demo Day, April 9, Hall B; Workshop, April 10, Room 3.
+moderate	Review the paragraph for clarity, identify two confusing phrases, and suggest cleaner wording for each.
+moderate	Summarize the report in five bullets, separating measured results from proposed next steps: The test passed 18 of 20 cases; the team proposes adding two more cases.
+moderate	Compare the supplied candidates on relevant experience and availability; provide a concise recommendation with one caveat.
+moderate	Classify these transactions into income, recurring expense, or one-time expense and return a labeled list: salary, internet bill, new chair.
+moderate	Extract the product name, quantity, and unit price from this order text and calculate the total: 4 notebooks at $2.25 each.
+moderate	Turn this paragraph into a short executive summary with one heading and three bullets: The rollout reached 80% of users, support tickets rose briefly, and performance returned to baseline.
+moderate	Analyze these poll results and report the percentage choosing each option: 30 chose A, 20 chose B, and 10 chose C.
+moderate	Group these risks by operational, financial, and user impact, retaining the original risk descriptions.
+moderate	Summarize the following meeting transcript in a paragraph, then list the three agreed actions and owners.
+moderate	Compare the stated subscription options by included seats, storage, and monthly cost; show the result in JSON.
+moderate	Classify the listed support requests by product area, count each area, and return a small table.
+moderate	Extract all deadlines from the supplied paragraph and sort them chronologically with the associated task.
+moderate	Rewrite this help article for a beginner, keep every step, and add a short descriptive heading.
+moderate	Analyze the supplied test results, identify the two lowest scores, and state one cautious observation about the pattern.
+moderate	Summarize this proposal in three sections: goal, approach, and unresolved questions.
+moderate	Compare these two email drafts for tone and clarity; select the stronger draft and give two reasons.
+moderate	Convert the provided inventory notes into a CSV with item, quantity, and reorder-needed columns.
+moderate	Classify the listed books by genre and provide the genre counts in a compact table.
+moderate	Summarize the supplied customer journey, identify its main friction point, and suggest one evidence-based improvement.
+moderate	Turn these service notes into a status report with completed work, current blockers, and next actions.
+moderate	Extract the three stated requirements from this paragraph and map each requirement to the sentence that supports it.
+moderate	Analyze the quarterly figures, calculate the percentage change from Q1 to Q2, and describe the result in one sentence.
+moderate	Compare these two draft schedules for overlap and available break time; return a concise recommendation.
+moderate	Classify the comments into usability, reliability, and feature-request themes, and provide one representative quote per theme.
+moderate	Summarize the supplied article in a headline, a two-sentence overview, and three keywords.
+moderate	Summarize the supplied workshop notes, separate decisions from ideas, and list the two follow-up owners.
+moderate	Classify each paragraph as describing a cause, an effect, or a proposed remedy and explain the labels briefly.
+moderate	Compare the three candidate dates by attendee availability, room capacity, and travel time; recommend one in a table.
+moderate	Extract the risks and mitigations from this project note and organize them by owner and status.
+moderate	Summarize the customer survey, report the two most common requests, and mention the sample size limitation.
+moderate	Analyze the provided sales table, calculate each region's share of the total, and identify the largest contributor.
+moderate	Convert the supplied procedure into a decision tree with a clear outcome for each condition.
+moderate	Classify these paragraphs by audience, tone, and purpose, then choose the clearest one for a help page.
+moderate	Compare the supplied product descriptions for clarity and completeness; list the main gap in each.
+complex	Compare three database designs across consistency, latency, operational cost, and failure recovery; recommend one for a multi-region service and state what evidence could change your choice.
+complex	Design a staged migration plan for a payment system, including data validation, rollback triggers, ownership, and customer impact at each stage.
+complex	Analyze the conflicting requirements in this scenario, identify hidden assumptions, rank the trade-offs, and propose a decision with a fallback plan.
+complex	Evaluate the evidence for both explanations of the incident, separate confirmed facts from hypotheses, and specify the next three measurements to collect.
+complex	Create a short story in which the narrator's account changes meaning at the end; maintain a consistent timeline and use a restrained tone.
+complex	Develop two original campaign concepts for a public library, compare their likely reach and inclusiveness, and recommend one under a limited budget.
+complex	Reason through this scheduling problem with dependencies and staff limits, find a feasible sequence, and explain why the alternatives fail.
+complex	Review this architecture for security, scaling, and observability risks; prioritize mitigations by likelihood and impact and explain the trade-offs.
+complex	Assess whether the supplied study supports a causal claim, identify confounders and sampling limitations, and outline a stronger follow-up design.
+complex	Generate a negotiation strategy for a delayed vendor contract that protects delivery, preserves the relationship, and defines acceptable concessions.
+complex	Compare the long-term consequences of three hiring plans under uncertain demand; state assumptions and recommend a robust option.
+complex	Design an evaluation plan for a support chatbot with quality, safety, latency, and cost metrics; include sampling, failure analysis, and release gates.
+complex	Interpret these conflicting stakeholder comments, identify the underlying needs, and draft a decision memo that acknowledges the strongest objection.
+complex	Create a three-act outline for a mystery novel where each clue has a fair explanation and the final reveal reinterprets an earlier scene.
+complex	Analyze the root cause of recurring outages from these logs, distinguish correlation from causation, and propose a testable remediation sequence.
+complex	Recommend a pricing change from the supplied churn and usage data; discuss distributional effects, uncertainty, and what additional data is needed.
+complex	Design a privacy-preserving analytics approach for a small health app, balancing utility, consent, retention, and re-identification risks.
+complex	Compare two disaster-recovery strategies for a regional service outage, quantify their recovery trade-offs, and recommend a plan for a strict recovery objective.
+complex	Write a persuasive but balanced speech about urban tree planting that addresses cost, maintenance, heat reduction, and competing land use.
+complex	Evaluate the ethical concerns in this product proposal, identify affected groups, and propose safeguards with measurable review criteria.
+complex	Plan a launch for a feature with uncertain reliability, defining staged exposure, stop conditions, communication, and post-launch learning.
+complex	Derive the time and space complexity of this nested-loop algorithm, identify its worst case, and propose an optimization without changing behavior.
+complex	Create a decision framework for choosing between build, buy, and partner options; apply it to the scenario and show sensitivity to cost assumptions.
+complex	Assess the competing interpretations of this contract clause, distinguish textual evidence from inference, and list questions for qualified counsel.
+complex	Develop a learning plan for a student with limited weekly time, multiple prerequisites, and an exam deadline; explain how it adapts if progress slips.
+complex	Compose a nuanced response to a colleague who opposes the proposal, addressing their strongest concern while preserving room for collaboration.
+complex	Design a resilient queue-processing system for bursty traffic, addressing ordering, retries, duplicate work, backpressure, and operational visibility.
+complex	Compare the likely outcomes of three public-policy options using effectiveness, equity, cost, and implementation risk; explain the value judgments involved.
+complex	Create a branching interactive-fiction scene with three meaningful choices, consistent character motivations, and consequences that reconnect coherently.
+complex	Analyze the provided experiment results, estimate uncertainty, examine multiple comparisons, and explain whether the evidence justifies rollout.
+complex	Develop a response plan for a data incident that covers containment, investigation, notification decisions, recovery, and lessons learned.
+complex	Recommend how to allocate a fixed research budget across three uncertain projects; explain opportunity cost and define a mid-course review rule.
+complex	Design an accessible workshop for participants with different experience levels, including activities, pacing, adaptations, and a way to assess learning.
+complex	Evaluate a proposed AI hiring screen for validity, disparate impact, privacy, and appeal rights; recommend safeguards and monitoring measures.
+complex	Write a character-driven scene in which two people want the same outcome for incompatible reasons; let subtext carry the disagreement.
+complex	Reason about the safest order for these infrastructure changes given dependencies, rollback limits, and a maintenance window; justify each step.
+complex	Compare three machine-learning deployment options under privacy, cost, latency, and maintainability constraints and recommend a path for a small team.
+complex	Assess whether a sharp sales increase was caused by the campaign or by seasonality, using the supplied timeline and proposing a credible counterfactual.
+complex	Create a crisis communication plan for a service outage with uncertain duration, including audience-specific messages and update criteria.
+complex	Analyze the fairness trade-offs in prioritizing scarce appointments; propose a transparent policy and explain its limitations.
+complex	Design a controlled test of a new onboarding flow that minimizes user disruption while measuring both completion and downstream retention.
+complex	Develop three distinct story premises from this theme, compare their originality and feasibility, then expand the strongest into a plot arc.
+complex	Review the migration proposal for hidden coupling and data-loss risks; produce a dependency map and a staged verification plan.
+complex	Evaluate the supplied arguments for internal consistency, identify unsupported premises, and construct the strongest reasonable counterargument.
+complex	Recommend a staffing plan for uneven demand while respecting a fixed headcount, skill coverage, fatigue limits, and a service-level target.
+complex	Design a multi-team incident exercise with realistic injects, decision points, evaluation criteria, and a debrief that avoids blame.
+complex	Write a balanced editorial on automated moderation that considers safety, expression, context, appeals, and the limits of scale.
+complex	Analyze the trade-off between a fast approximate algorithm and a slower exact one for this workload; identify thresholds where each is preferable.
+complex	Create a research synthesis from the supplied mixed findings, reconcile disagreements, assess evidence strength, and avoid overstating consensus.
+complex	Plan a phased decommissioning of a legacy API, accounting for unknown clients, compatibility, data retention, and an emergency extension path.
+complex	Judge whether the candidate's portfolio demonstrates the stated role requirements, cite specific evidence, flag gaps, and avoid inferring personal traits.
+complex	Develop a creative brief for a low-cost climate campaign that is memorable, culturally adaptable, measurable, and resistant to misleading claims.
+complex	Assess how a proposed security control could fail under insider misuse, compromised credentials, and operational pressure; propose layered defenses.
+complex	Compare a centralized and federated data-governance model for a global organization, including decision rights, compliance, and coordination costs.
+complex	Design a decision log and escalation process for a project with ambiguous ownership, conflicting deadlines, and high-impact dependencies.
+complex	Analyze why the supplied benchmark may overstate model quality, identify leakage and selection effects, and redesign it for realistic deployment.
+complex	Write a nuanced apology for a missed commitment that accepts responsibility, explains the impact, offers repair, and avoids making excuses.
+complex	Recommend a sequence for improving a slow service from these traces, separating measurement, low-risk fixes, and changes requiring a rollback plan.
+complex	Create an original product concept for older adults that balances independence, accessibility, privacy, affordability, and caregiver involvement.
+complex	Evaluate the proposed incentive scheme for unintended behavior, gaming, and unequal effects; redesign it with safeguards and review signals.
+complex	Reason through the competing goals in this school policy, identify who bears each cost, and offer a compromise with a clear review date.
+complex	Design a fault-tolerant file-upload workflow that handles partial failures, large files, retries, integrity checks, and user-visible progress.
+complex	Compare three explanations for the observed drop in engagement, rank them by evidence, and propose experiments that distinguish among them.
+complex	Develop a multi-year conservation plan for a habitat under budget uncertainty, balancing monitoring, restoration, local livelihoods, and adaptive management.
+complex	Write a two-voice poem about memory and migration in which the voices gradually converge without losing their distinct perspectives.
+complex	Assess the consequences of exposing a new API publicly, including abuse, support load, compatibility, and monetization; recommend staged safeguards.
+complex	Construct a robust forecast from the supplied scenarios, show a base and stress case, explain the largest sensitivities, and state where precision is unwarranted.
+complex	Design a peer-review rubric for a complex proposal that rewards evidence and clarity while reducing bias from style, seniority, and familiarity.
+complex	Evaluate the trade-offs in replacing a human review step with automation, identify high-risk exceptions, and propose an appeal and audit process.
+complex	Develop a negotiation plan between teams with conflicting delivery goals, including shared interests, boundary conditions, and escalation triggers.
+complex	Create a short speculative-fiction plot about a city that rations attention; make the social rules plausible and the resolution emotionally earned.
+complex	Analyze this supply-chain disruption, trace dependencies, identify single points of failure, and prioritize resilience investments by expected impact.
+complex	Recommend whether to merge these two product teams using their goals, dependencies, culture risks, and customer commitments; present a reversible first step.
+complex	Design a longitudinal study of a new education program, addressing attrition, baseline differences, measurement validity, and ethical participation.
+complex	Assess whether the supplied policy language is ambiguous in practice, generate plausible edge cases, and propose wording that preserves its intent.
+complex	Create a launch-day decision tree for a service with uncertain capacity, including monitoring thresholds, rollback authority, and customer communication.
+complex	Compare the moral arguments for and against using synthetic data in this context, then recommend conditions under which use is defensible.
+complex	Write a layered scene where a seemingly routine handoff reveals a conflict about trust, using concrete details rather than exposition.
+complex	Analyze the proposed database sharding plan for hotspots, cross-shard queries, migration complexity, and recovery; recommend a measured rollout.
+complex	Develop a prioritization method for a backlog with security debt, accessibility issues, customer requests, and limited engineering capacity; show its consequences.
+complex	Evaluate the reliability evidence for this new device, distinguish lab performance from field performance, and propose acceptance criteria for deployment.
+complex	Design a public consultation process that reaches underrepresented residents, handles disagreement fairly, and shows how input changes the final decision.
+complex	Create a contingency plan for a critical supplier failure, including alternative sourcing, qualification tests, cost limits, and communication roles.
+complex	Reason through whether to delay a release for a rare defect, weigh severity and exposure, and state what information would change the decision.
+complex	Draft a strategy memo for entering a new market, integrating customer evidence, regulatory uncertainty, competitive response, and exit criteria.
+complex	Analyze the scenario's competing interpretations, distinguish what is known from what is plausible, and give a calibrated recommendation with caveats.
